@@ -34,45 +34,6 @@
             android:text="Clear Patch"
             android:textAllCaps="false"/>
 
-        <Button
-            android:id="@+id/notification"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="testNotification"
-            android:text="Notification"
-            android:textAllCaps="false"/>
-
-        <Button
-            android:id="@+id/test_patched_activity"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="testPatchedActivities"
-            android:text="Test patched activity"
-            android:textAllCaps="false"/>
-
-        <Button
-            android:id="@+id/test_patched_services"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="testPatchedServices"
-            android:text="Test patched service"
-            android:textAllCaps="false"/>
-
-        <Button
-            android:id="@+id/trigger_receiver_action"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="triggerReceiverAction"
-            android:text="trigger receiver"
-            android:textAllCaps="false"/>
-
-        <Button
-            android:id="@+id/test_patched_provider"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="testPatchedProvider"
-            android:text="test patched provider"
-            android:textAllCaps="false"/>
 
     </LinearLayout>
 
